@@ -1,0 +1,124 @@
+
+
+
+
+/* --------------------------------------------- BORDERS -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+.border-none{ border: none; }
+.outline-none{ outline: 0; }
+
+.border-focus:focus{ border-style: solid; border-width: $border-thickness-default; }
+
+.border-accent-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $accent-color; }
+.border-tertiary-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $tertiary-color; }
+.border-secondary-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $secondary-color; }
+.border-main-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $main-color; }
+.border-dark-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $dark-color; }
+.border-light-focus:focus{ border-style: solid; border-width: $border-thickness-default; border-color: $light-color; }
+
+
+
+
+
+/* border types */
+.border{ border-style: solid; border-width: $border-thickness-default; }
+.border-right { border-right-width: $border-thickness-default; border-right-style: solid; }
+.border-left{ border-left-width: $border-thickness-default; border-left-style: solid; }
+.border-top{ border-top-width: $border-thickness-default; border-top-style: solid; }
+.border-bottom{ border-bottom-width: $border-thickness-default; border-bottom-style: solid; }
+
+/* border widths */
+.border-xs{ border-width: $border-thickness-xs; }
+.border-sm{ border-width: $border-thickness-sm; }
+.border-md{ border-width: $border-thickness-md; }
+.border-lg{ border-width: $border-thickness-lg; }
+.border-xl{ border-width: $border-thickness-xl; }
+
+
+
+
+/* ---- color ---- */
+
+.border-light{ border-color: $background-color-light; }
+.border-dark{ border-color: $background-color-dark; }
+.border-accent{ border-color: $accent-color; }
+.border-secondary{ border-color: $secondary-color; }
+.border-tertiary{ border-color: $tertiary-color; }
+.border-main{ border-color: $main-color; }
+
+
+/* ---- border-tertiary lighten ---- */
+
+
+.border-tertiary-lighten-xs { border-color: lighten($tertiary-color, 10%)  }
+.border-tertiary-lighten-sm { border-color: lighten($tertiary-color, 30%)  }
+.border-tertiary-lighten-md { border-color: lighten($tertiary-color, 50%)  }
+.border-tertiary-lighten-lg { border-color: lighten($tertiary-color, 70%)  }
+.border-tertiary-lighten-xl { border-color: lighten($tertiary-color, 90%)  }
+
+.border-dark-lighten-xs { border-color: lighten($dark-color, 10%) !important; }
+.border-dark-lighten-sm { border-color: lighten($dark-color, 30%) !important; }
+.border-dark-lighten-md { border-color: lighten($dark-color, 50%) !important; }
+.border-dark-lighten-lg { border-color: lighten($dark-color, 70%) !important; }
+.border-dark-lighten-xl { border-color: lighten($dark-color, 90%) !important; }
+
+.border-main-lighten-xs { border-color: lighten($main-color, 10%) !important; }
+.border-main-lighten-sm { border-color: lighten($main-color, 30%) !important; }
+.border-main-lighten-md { border-color: lighten($main-color, 50%) !important; }
+.border-main-lighten-lg { border-color: lighten($main-color, 70%) !important; }
+.border-main-lighten-xl { border-color: lighten($main-color, 90%) !important; }
+
+.border-secondary-lighten-xs { border-color: lighten($secondary-color, 10%) !important; }
+.border-secondary-lighten-sm { border-color: lighten($secondary-color, 30%) !important; }
+.border-secondary-lighten-md { border-color: lighten($secondary-color, 50%) !important; }
+.border-secondary-lighten-lg { border-color: lighten($secondary-color, 70%) !important; }
+.border-secondary-lighten-xl { border-color: lighten($secondary-color, 90%) !important; }
+
+.border-accent-lighten-xs { border-color: lighten($accent-color, 10%) !important; }
+.border-accent-lighten-sm { border-color: lighten($accent-color, 30%) !important; }
+.border-accent-lighten-md { border-color: lighten($accent-color, 50%) !important; }
+.border-accent-lighten-lg { border-color: lighten($accent-color, 70%) !important; }
+.border-accent-lighten-xl { border-color: lighten($accent-color, 90%) !important; }
+
+
+/* ---- appearence ---- */
+
+.border-curved { border-radius: 5px; }
+.border-curved-down { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.border-curved-up { border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.border-curved-right { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.border-curved-left { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+
+/* ---- border hovers ---- */
+
+
+.border-hover-light:hover{ border-color: $light-color; }
+.border-hover-dark:hover{ border-color: $dark-color;  }
+.border-hover-main:hover{ border-color: $main-color; }
+.border-hover-secondary:hover{ border-color: $secondary-color; }
+.border-hover-accent:hover{ border-color: $accent-color; }
+
+.border-bottom-light-focus:focus{ border-bottom-color: $light-color; border-bottom-style: solid;}
+.border-bottom-dark-focus:focus{ border-bottom-color: $dark-color; border-bottom-style: solid;}
+.border-bottom-tertiary-focus:focus{ border-bottom-color: $tertiary-color; border-bottom-style: solid;}
+.border-bottom-main-focus:focus{ border-bottom-color: $main-color; border-bottom-style: solid;}
+.border-bottom-secondary-focus:focus{ border-bottom-color: $secondary-color; border-bottom-style: solid;}
+.border-bottom-accent-focus:focus{ border-bottom-color: $accent-color; border-bottom-style: solid;}
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */

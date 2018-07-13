@@ -1,0 +1,232 @@
+/*
+	DOCUMENT RULES
+
+	- Secties aangeven met een lange gestreepte lijn. Daarin in hoofdletters de title van de sectie aangeven..
+	- volgorde per sectie is: --Base settings--, --classes--, --media queries--.
+	- probeer de single responsibility rule aan te houden. 
+
+{screensize}-{element}-{behaviour}-{usage}-{identifier}-{amount}
+{lg}-{bg}-{hover}-{darken}-{main}-{xs}
+
+
+/* --------------------------------------------- { TITLE } -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */ 
+
+
+/* 
+
+	/* Large desktops and laptops */
+	@media (min-width: 1200px) { }
+
+	/* Landscape tablets and medium desktops */
+	@media (min-width: 992px) and (max-width: 1199px) { }
+
+	/* Portrait tablets and small desktops */
+	@media (min-width: 768px) and (max-width: 991px) { }
+
+	/* Landscape phones and portrait tablets */
+	@media (max-width: 767px) { }
+
+	/* Portrait phones and smaller */
+	@media (max-width: 480px) { }
+
+/*
+
+	
+	INCLUDED IN THIS DOCUMENT:
+	-- color variables
+	-- font variables
+	-- font size variables
+	-- shape size variables
+	-- form element variables
+	-- aesthetic variables
+	-- html stucture variables
+	-- base settings
+	
+	HUISSTIJL
+	-------------------------------------
+	-- backgrounds
+	-- buttons
+	-- form elements
+	-- borders
+	-- text and heading colors
+	-- text transforms and font classes
+	-- animations
+	-- shadows
+	-- client manipulator
+	-- images
+	--------------------------------------
+
+	HTML STRUCTURE RULES
+	--------------------------------------
+	-- centering
+	-- shapes
+	-- floats
+	-- block limits
+	-- blocks
+
+
+
+*/
+
+
+/* --------------------------------------------- COLOR VARIABLES -------------------------------------------- */
+
+
+
+
+$light-color: white;
+$dark-color: #211d1e;
+$main-color : #F3A119;
+$secondary-color : #F6F6F6;
+$accent-color : #808080;
+$tertiary-color: #354052;
+
+$background-color-light: white;
+$background-color-dark: #211d1e;
+
+
+/* standards */
+
+$danger-color: #fb0a28;
+
+
+/* --------------------------------------------- FONT VARIABLES -------------------------------------------- */
+
+
+$font: 'Open Sans', sans-serif;
+$font-heading: 'Open Sans', sans-serif;
+
+
+
+
+/* --------------------------------------------- FONT SIZE VARIABLES -------------------------------------------- */
+
+
+/* font-size variables */
+
+
+$font-size-xs: 11px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 42px;
+
+
+/* letter spacing variables */
+
+$letter-space-xs: 2px;
+$letter-space-sm: 4px;
+$letter-space-md: 6px;
+$letter-space-lg: 8px;
+$letter-space-xl: 10px;
+
+
+/* line height spacing variables */
+
+$line-height-xs: 50px;
+$line-height-sm: $line-height-xs + 4px;
+$line-height-md: $line-height-sm + 4px;
+$line-height-lg: $line-height-md + 4px;
+$line-height-xl: $line-height-lg + 4px;
+
+
+
+/* --------------------------------------------- SHAPE SIZE VARIABLES -------------------------------------------- */
+
+
+$circle-dist-xs: 25px;
+$circle-dist-sm: 30px;
+$circle-dist-md: 50px;
+$circle-dist-lg: 150px;
+$circle-dist-xl: 225px;
+
+
+/* --------------------------------------------- FORM ELEMENT VARIABLES -------------------------------------------- */
+
+
+$input-height: 33px;
+
+
+/* --------------------------------------------- AESTHETIC VARIABLES -------------------------------------------- */
+
+
+$opacity-xs: 0.85;
+$opacity-sm: 0.70;
+$opacity-md: 0.55;
+$opacity-lg: 0.40;
+$opacity-xl: 0.25;
+
+
+/* --------------------------------------------- HTML STRUCTURE VARIABLES -------------------------------------------- */
+
+
+$border-thickness-default: 1px;
+$border-thickness-xs: 2px;
+$border-thickness-sm: 3px;
+$border-thickness-md: 4px;
+$border-thickness-lg: 5px;
+$border-thickness-xl: 6px;
+
+
+$limit-width-xs: 200px;
+$limit-width-sm: 240px;
+$limit-width-md: 280px;
+$limit-width-lg: 320px;
+$limit-width-xl: 360px;
+
+$limit-height-xs: 200px;
+$limit-height-sm: 220px;
+$limit-height-md: 240px;
+$limit-height-lg: 260px;
+$limit-height-xl: 280px;
+
+
+/* --------------------------------------------- BASE SETTINGS -------------------------------------------- */
+
+
+/* resets */
+
+
+
+body, p, span, a, h1, h2, h3, h4, h5{ margin: 0; padding: 0; }
+
+body{
+	background: $background-color-light;
+	font-size: $font-size-sm;
+	font-family: $font;
+}
+
+a, a:hover, a:focus, a:active{ text-decoration: none; }
+
+.container-fluid { padding: 0; }
+
+p{
+	font-family: $font;
+	font-weight: 300;
+}
+
+h1,h2,h3,h4,h5{ 
+	font-family: $font-heading !important; 
+}
+
+

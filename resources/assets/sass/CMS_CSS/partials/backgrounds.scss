@@ -1,0 +1,394 @@
+
+/* --------------------------------------------- BACKGROUNDS -------------------------------------------- */
+
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+
+.bg-light{ background: $background-color-light; min-height: 1px; }
+.bg-dark{ background: $background-color-dark; min-height: 1px; }
+.bg-main{ background: $main-color !important; min-height: 1px; }
+.bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+.bg-accent{ background: $accent-color; min-height: 1px; }
+.bg-tertiary{ background: $tertiary-color; min-height: 1px; }
+
+/* standards */
+.bg-none{ background: none; }
+.bg-danger{ background: $danger-color; }
+
+/* background lighten */
+
+
+/* background dark lighten */
+
+.bg-dark-lighten-xs { background: lighten($background-color-dark, 10%) !important	; }
+.bg-dark-lighten-sm { background: lighten($background-color-dark, 30%) !important; }
+.bg-dark-lighten-md { background: lighten($dark-color, 50%) !important; }
+.bg-dark-lighten-lg { background: lighten($dark-color, 70%) !important; }
+.bg-dark-lighten-xl { background: lighten($dark-color, 90%) !important; }
+
+
+/* background main lighten */
+
+.bg-main-lighten-xs { background: lighten($main-color, 10%) !important; }
+.bg-main-lighten-sm { background: lighten($main-color, 30%) !important; }
+.bg-main-lighten-md { background: lighten($main-color, 50%) !important; }
+.bg-main-lighten-lg { background: lighten($main-color, 70%) !important; }
+.bg-main-lighten-xl { background: lighten($main-color, 90%) !important; }
+
+
+/* background main lighten */
+
+
+.bg-secondary-lighten-xs { background: lighten($secondary-color, 10%) !important; }
+.bg-secondary-lighten-sm { background: lighten($secondary-color, 30%) !important; }
+.bg-secondary-lighten-md { background: lighten($secondary-color, 50%) !important; }
+.bg-secondary-lighten-lg { background: lighten($secondary-color, 70%) !important; }
+.bg-secondary-lighten-xl { background: lighten($secondary-color, 90%) !important; }
+
+
+/* background main lighten */
+
+
+.bg-accent-lighten-xs { background: lighten($accent-color, 10%) !important; }
+.bg-accent-lighten-sm { background: lighten($accent-color, 30%) !important; }
+.bg-accent-lighten-md { background: lighten($accent-color, 50%) !important; }
+.bg-accent-lighten-lg { background: lighten($accent-color, 70%) !important; }
+.bg-accent-lighten-xl { background: lighten($accent-color, 90%) !important; }
+
+
+/* background darken */
+
+
+/* background dark darken */
+
+
+.bg-light-darken-xs { background: darken($background-color-light, 10%) !important; }
+.bg-light-darken-sm { background: darken($background-color-light, 30%) !important; }
+.bg-light-darken-md { background: darken($light-color, 50%) !important; }
+.bg-light-darken-lg { background: darken($light-color, 70%) !important; }
+.bg-light-darken-xl { background: darken($light-color, 90%) !important; }
+
+
+/* background dark darken */
+
+
+.bg-dark-darken-xs { color: darken($background-color-dark, 10%) !important; }
+.bg-dark-darken-sm { color: darken($background-color-dark, 30%) !important; }
+.bg-dark-darken-md { color: darken($dark-color, 50%) !important; }
+.bg-dark-darken-lg { color: darken($dark-color, 70%) !important; }
+.bg-dark-darken-xl { color: darken($dark-color, 90%) !important; }
+
+
+/* background main darken */
+
+
+.bg-main-darken-xs { background: darken($main-color, 10%) !important; }
+.bg-main-darken-sm { background: darken($main-color, 30%) !important; }
+.bg-main-darken-md { background: darken($main-color, 50%) !important; }
+.bg-main-darken-lg { background: darken($main-color, 70%) !important; }
+.bg-main-darken-xl { background: darken($main-color, 90%) !important; }
+
+
+/* background secondary darken */
+
+
+.bg-secondary-darken-xs { background: darken($secondary-color, 10%) !important; }
+.bg-secondary-darken-sm { background: darken($secondary-color, 30%) !important; }
+.bg-secondary-darken-md { background: darken($secondary-color, 50%) !important; }
+.bg-secondary-darken-lg { background: darken($secondary-color, 70%) !important; }
+.bg-secondary-darken-xl { background: darken($secondary-color, 90%) !important; }
+
+
+/* background accent darken */
+
+
+.bg-accent-darken-xs { background: darken($accent-color, 10%) !important; }
+.bg-accent-darken-sm { background: darken($accent-color, 30%) !important; }
+.bg-accent-darken-md { background: darken($accent-color, 50%) !important; }
+.bg-accent-darken-lg { background: darken($accent-color, 70%) !important; }
+.bg-accent-darken-xl { background: darken($accent-color, 90%) !important; }
+
+
+/* background tertiary darken */
+
+
+.bg-tertiary-darken-xs { background: darken($tertiary-color, 10%) !important; }
+.bg-tertiary-darken-sm { background: darken($tertiary-color, 30%) !important; }
+.bg-tertiary-darken-md { background: darken($tertiary-color, 50%) !important; }
+.bg-tertiary-darken-lg { background: darken($tertiary-color, 70%) !important; }
+.bg-tertiary-darken-xl { background: darken($tertiary-color, 90%) !important; }
+
+/* background tertiary lighten */
+
+
+.bg-tertiary-lighten-xs { background: lighten($tertiary-color, 10%) !important; }
+.bg-tertiary-lighten-sm { background: lighten($tertiary-color, 30%) !important; }
+.bg-tertiary-lighten-md { background: lighten($tertiary-color, 50%) !important; }
+.bg-tertiary-lighten-lg { background: lighten($tertiary-color, 70%) !important; }
+.bg-tertiary-lighten-xl { background: lighten($tertiary-color, 90%) !important; }
+
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+
+/*  ---- background-color hovers ---- */
+
+
+.bg-hover-light:hover{ background: $background-color-light !important; }
+.bg-hover-dark:hover{ background: $background-color-dark !important; }
+.bg-hover-main:hover{ background: $main-color !important; }
+.bg-hover-secondary:hover{ background: $secondary-color !important; }
+.bg-hover-accent:hover{ background: $accent-color !important; }
+.bg-hover-tertiary:hover{ background: $tertiary-color !important; }
+
+/* background darken hovers */
+
+
+/* background dark darken hovers */
+
+
+.bg-light-hover-darken-xs:hover { background: darken($background-color-light, 10%) !important; }
+.bg-light-hover-darken-sm:hover { background: darken($background-color-light, 30%) !important; }
+.bg-light-hover-darken-md:hover { background: darken($light-color, 50%) !important; }
+.bg-light-hover-darken-lg:hover { background: darken($light-color, 70%) !important; }
+.bg-light-hover-darken-xl:hover { background: darken($light-color, 90%) !important; }
+
+
+/* background dark darken hovers */
+
+
+.bg-dark-hover-darken-xs:hover { background: darken($background-color-dark, 10%) !important; }
+.bg-dark-hover-darken-sm:hover { background: darken($background-color-dark, 30%) !important; }
+.bg-dark-hover-darken-md:hover { background: darken($dark-color, 50%) !important; }
+.bg-dark-hover-darken-lg:hover { background: darken($dark-color, 70%) !important; }
+.bg-dark-hover-darken-xl:hover { background: darken($dark-color, 90%) !important; }
+
+
+/* background main darken hovers */
+
+
+.bg-main-hover-darken-xs:hover { background: darken($main-color, 10%) !important; }
+.bg-main-hover-darken-sm:hover { background: darken($main-color, 30%) !important; }
+.bg-main-hover-darken-md:hover { background: darken($main-color, 50%) !important; }
+.bg-main-hover-darken-lg:hover { background: darken($main-color, 70%) !important; }
+.bg-main-hover-darken-xl:hover { background: darken($main-color, 90%) !important; }
+
+
+/* background secondary darken hover */
+
+
+.bg-secondary-hover-darken-xs:hover { background: darken($secondary-color, 10%) !important; }
+.bg-secondary-hover-darken-sm:hover { background: darken($secondary-color, 30%) !important; }
+.bg-secondary-hover-darken-md:hover { background: darken($secondary-color, 50%) !important; }
+.bg-secondary-hover-darken-lg:hover { background: darken($secondary-color, 70%) !important; }
+.bg-secondary-hover-darken-xl:hover { background: darken($secondary-color, 90%) !important; }
+
+
+/* background accent darken hover */
+
+
+.bg-accent-hover-darken-xs:hover { background: darken($accent-color, 10%) !important; }
+.bg-accent-hover-darken-sm:hover { background: darken($accent-color, 30%) !important; }
+.bg-accent-hover-darken-md:hover { background: darken($accent-color, 50%) !important; }
+.bg-accent-hover-darken-lg:hover { background: darken($accent-color, 70%) !important; }
+.bg-accent-hover-darken-xl:hover { background: darken($accent-color, 90%) !important; }
+
+/* background tertiary darken hover */
+
+
+.bg-tertiary-hover-darken-xs:hover { background: darken($tertiary-color, 10%) !important; }
+.bg-tertiary-hover-darken-sm:hover { background: darken($tertiary-color, 30%) !important; }
+.bg-tertiary-hover-darken-md:hover { background: darken($tertiary-color, 50%) !important; }
+.bg-tertiary-hover-darken-lg:hover { background: darken($tertiary-color, 70%) !important; }
+.bg-tertiary-hover-darken-xl:hover { background: darken($tertiary-color, 90%) !important; }
+
+
+/* background lighten */
+
+
+/* background dark lighten */
+
+.bg-dark-hover-lighten-xs:hover { background: lighten($background-color-dark, 10%) !important; }
+.bg-dark-hover-lighten-sm:hover { background: lighten($background-color-dark, 30%) !important; }
+.bg-dark-hover-lighten-md:hover { background: lighten($dark-color, 50%) !important; }
+.bg-dark-hover-lighten-lg:hover { background: lighten($dark-color, 70%) !important; }
+.bg-dark-hover-lighten-xl:hover { background: lighten($dark-color, 90%) !important; }
+
+
+/* background main lighten */
+
+
+.bg-main-hover-lighten-xs:hover { background: lighten($main-color, 10%) !important; }
+.bg-main-hover-lighten-sm:hover { background: lighten($main-color, 30%) !important; }
+.bg-main-hover-lighten-md:hover { background: lighten($main-color, 50%) !important; }
+.bg-main-hover-lighten-lg:hover { background: lighten($main-color, 70%) !important; }
+.bg-main-hover-lighten-xl:hover { background: lighten($main-color, 90%) !important; }
+
+
+/* background main lighten */
+
+
+.bg-secondary-hover-lighten-xs:hover { background: lighten($secondary-color, 10%) !important; }
+.bg-secondary-hover-lighten-sm:hover { background: lighten($secondary-color, 30%) !important; }
+.bg-secondary-hover-lighten-md:hover { background: lighten($secondary-color, 50%) !important; }
+.bg-secondary-hover-lighten-lg:hover { background: lighten($secondary-color, 70%) !important; }
+.bg-secondary-hover-lighten-xl:hover { background: lighten($secondary-color, 90%) !important; }
+
+
+/* background accent lighten */
+
+
+.bg-accent-hover-lighten-xs:hover { background: lighten($accent-color, 10%) !important; }
+.bg-accent-hover-lighten-sm:hover { background: lighten($accent-color, 30%) !important; }
+.bg-accent-hover-lighten-md:hover { background: lighten($accent-color, 50%) !important; }
+.bg-accent-hover-lighten-lg:hover { background: lighten($accent-color, 70%) !important; }
+.bg-accent-hover-lighten-xl:hover { background: lighten($accent-color, 90%) !important; }
+
+/* background tertiary lighten */
+
+
+.bg-tertiary-hover-lighten-xs:hover { background: lighten($tertiary-color, 10%) !important; }
+.bg-tertiary-hover-lighten-sm:hover { background: lighten($tertiary-color, 30%) !important; }
+.bg-tertiary-hover-lighten-md:hover { background: lighten($tertiary-color, 50%) !important; }
+.bg-tertiary-hover-lighten-lg:hover { background: lighten($tertiary-color, 70%) !important; }
+.bg-tertiary-hover-lighten-xl:hover { background: lighten($tertiary-color, 90%) !important; }
+
+/* transparent bgs */
+
+
+.bg-dark-transparent-xs { background: rgba($dark-color, 0.1) !important; }
+.bg-dark-transparent-sm { background: rgba($dark-color, 0.3) !important; }
+.bg-dark-transparent-md { background: rgba($dark-color, 0.5) !important; }
+.bg-dark-transparent-lg { background: rgba($dark-color, .7) !important; }
+.bg-dark-transparent-xl { background: rgba($dark-color, .9) !important; }
+
+.bg-tertiary-transparent-xs { background: rgba($tertiary-color, 0.1) !important; }
+.bg-tertiary-transparent-sm { background: rgba($tertiary-color, 0.3) !important; }
+.bg-tertiary-transparent-md { background: rgba($tertiary-color, 0.5) !important; }
+.bg-tertiary-transparent-lg { background: rgba($tertiary-color, .7) !important; }
+.bg-tertiary-transparent-xl { background: rgba($tertiary-color, .9) !important; }
+
+.bg-tertiary-transparent-xs-hover:hover { background: rgba($tertiary-color, 0.1) !important; }
+.bg-tertiary-transparent-sm-hover:hover { background: rgba($tertiary-color, 0.3) !important; }
+.bg-tertiary-transparent-md-hover:hover { background: rgba($tertiary-color, 0.5) !important; }
+.bg-tertiary-transparent-lg-hover:hover { background: rgba($tertiary-color, .7) !important; }
+.bg-tertiary-transparent-xl-hover:hover { background: rgba($tertiary-color, .9) !important; }
+
+/*  opacity hovers */
+
+
+.hover-opacity-transparent:hover{ opacity : 0 };
+.hover-opacity-xs:hover{ opacity : $opacity-xs };
+.hover-opacity-sm:hover{ opacity : $opacity-sm };
+.hover-opacity-md:hover{ opacity : $opacity-md };
+.hover-opacity-lg:hover{ opacity : $opacity-lg };
+.hover-opacity-xl:hover{ opacity : $opacity-xl };
+
+
+
+
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */
+
+ 
+	/* Large desktops and laptops */
+	@media (min-width: 1200px) { 
+		.lg-bg-light{ background: $background-color-light; min-height: 1px; }
+		.lg-bg-dark{ background: $background-color-dark; min-height: 1px; }
+		.lg-bg-main{ background: $main-color !important; min-height: 1px; }
+		.lg-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+		.lg-bg-accent{ background: $accent-color; min-height: 1px; }
+
+
+		/*  ---- background-color hovers ---- */
+
+
+		.lg-bg-hover-light:hover{ background: $background-color-light !important; }
+		.lg-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.lg-bg-hover-main:hover{ background: $main-color !important; }
+		.lg-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.lg-bg-hover-accent:hover{ background: $accent-color !important; }
+	}
+
+	/* Landscape tablets and medium desktops */
+	@media (min-width: 992px) and (max-width: 1199px) { 
+		.md-bg-light{ background: $background-color-light; min-height: 1px; }
+		.md-bg-dark{ background: $background-color-dark; min-height: 1px; }
+		.md-bg-main{ background: $main-color !important; min-height: 1px; }
+		.md-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+		.md-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.md-bg-hover-light:hover{ background: $background-color-light !important; }
+		.md-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.md-bg-hover-main:hover{ background: $main-color !important; }
+		.md-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.md-bg-hover-accent:hover{ background: $accent-color !important; }		
+	}
+
+	/* Portrait tablets and small desktops */
+	@media (min-width: 768px) and (max-width: 991px) { 
+		.sm-bg-light{ background: $background-color-light; min-height: 1px; }
+		.sm-bg-dark{ background: $background-color-dark; min-height: 1px; }
+		.sm-bg-main{ background: $main-color !important; min-height: 1px; }
+		.sm-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+		.sm-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.sm-bg-hover-light:hover{ background: $background-color-light !important; }
+		.sm-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.sm-bg-hover-main:hover{ background: $main-color !important; }
+		.sm-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.sm-bg-hover-accent:hover{ background: $accent-color !important; }
+	}
+
+	/* Landscape phones and portrait tablets */
+	@media (max-width: 767px) {
+		.xs-bg-light{ background: $background-color-light; min-height: 1px; }
+		.xs-bg-dark{ background: $background-color-dark; min-height: 1px; }
+		.xs-bg-main{ background: $main-color !important; min-height: 1px; }
+		.xs-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+		.xs-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.xs-bg-hover-light:hover{ background: $background-color-light !important; }
+		.xs-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.xs-bg-hover-main:hover{ background: $main-color !important; }
+		.xs-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.xs-bg-hover-accent:hover{ background: $accent-color !important; }		
+	 }
+
+	/* Portrait phones and smaller */
+	@media (max-width: 480px) { 
+		.xs-bg-light{ background: $background-color-light; min-height: 1px; }
+		.xs-bg-dark{ background: $background-color-dark; min-height: 1px; }
+		.xs-bg-main{ background: $main-color !important; min-height: 1px; }
+		.xs-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
+		.xs-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.xs-bg-hover-light:hover{ background: $background-color-light !important; }
+		.xs-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.xs-bg-hover-main:hover{ background: $main-color !important; }
+		.xs-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.xs-bg-hover-accent:hover{ background: $accent-color !important; }
+	}

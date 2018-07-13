@@ -1,0 +1,60 @@
+
+
+/* --------------------------------------------- BUTTONS -------------------------------------------- */
+
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+
+.btn-standard {
+	padding: 15px 55px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border:none;
+}
+
+.btn-round {
+	span {
+		margin-left: 20px;
+	}
+}
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+a.btn-standard, input[type=submit].btn-standard, button.btn-standard
+{
+	padding: 15px 55px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: none;
+}
+
+a.btn-round, input[type=submit].btn-round, button.btn-round{
+	border: none;
+	background: transparent;
+
+	span{
+		margin-left: 20px;
+	}
+}
+
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */

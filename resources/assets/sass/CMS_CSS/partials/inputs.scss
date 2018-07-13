@@ -1,0 +1,87 @@
+
+/* --------------------------------------------- INPUTS -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+
+
+.autofill-main:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $main-color inset; } 
+.autofill-secondary:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $secondary-color inset; } 
+.autofill-accent:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $accent-color inset; } 
+.autofill-tertiary:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $tertiary-color inset; } 
+.autofill-dark:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $dark-color inset; } 
+.autofill-light:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px $light-color inset; } 
+
+.autofill-color-main { -webkit-text-fill-color: $main-color; }
+.autofill-color-secondary { -webkit-text-fill-color: $secondary-color; }
+.autofill-color-accent { -webkit-text-fill-color: $accent-color; }
+.autofill-color-tertiary { -webkit-text-fill-color: $tertiary-color; }
+.autofill-color-dark { -webkit-text-fill-color: $dark-color; }
+.autofill-color-light { -webkit-text-fill-color: $light-color; }
+
+/* autofill main lighten */
+
+.autofill-main-lighten-xs:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($main-color, 10%) inset; } 
+.autofill-main-lighten-sm:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($main-color, 30%) inset; } 
+.autofill-main-lighten-md:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($main-color, 50%) inset; } 
+.autofill-main-lighten-lg:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($main-color, 70%) inset; } 
+.autofill-main-lighten-xl:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($main-color, 90%) inset; } 
+
+
+/* autofill secondary lighten */
+
+.autofill-secondary-lighten-xs:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($secondary-color, 10%) inset; } 
+.autofill-secondary-lighten-sm:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($secondary-color, 30%) inset; } 
+.autofill-secondary-lighten-md:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($secondary-color, 50%) inset; } 
+.autofill-secondary-lighten-lg:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($secondary-color, 70%) inset; } 
+.autofill-secondary-lighten-xl:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($secondary-color, 90%) inset; } 
+
+
+
+/* autofill accent lighten */
+
+.autofill-accent-lighten-xs:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($accent-color, 10%) inset; } 
+.autofill-accent-lighten-sm:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($accent-color, 30%) inset; } 
+.autofill-accent-lighten-md:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($accent-color, 50%) inset; } 
+.autofill-accent-lighten-lg:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($accent-color, 70%) inset; } 
+.autofill-accent-lighten-xl:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($accent-color, 90%) inset; }
+
+/* autofill tertiary lighten */
+
+.autofill-tertiary-lighten-xs:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($tertiary-color, 10%) inset; } 
+.autofill-tertiary-lighten-sm:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($tertiary-color, 30%) inset; } 
+.autofill-tertiary-lighten-md:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($tertiary-color, 50%) inset; } 
+.autofill-tertiary-lighten-lg:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($tertiary-color, 70%) inset; } 
+.autofill-tertiary-lighten-xl:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($tertiary-color, 90%) inset; }
+
+/* autofill dark lighten */
+
+.autofill-dark-lighten-xs:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($dark-color, 10%) inset; } 
+.autofill-dark-lighten-sm:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($dark-color, 30%) inset; } 
+.autofill-dark-lighten-md:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($dark-color, 50%) inset; } 
+.autofill-dark-lighten-lg:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($dark-color, 70%) inset; } 
+.autofill-dark-lighten-xl:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px lighten($dark-color, 90%) inset; }
+
+
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */

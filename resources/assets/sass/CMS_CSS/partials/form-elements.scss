@@ -1,0 +1,53 @@
+
+
+/* --------------------------------------------- FORM ELEMENTS -------------------------------------------- */
+
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+
+.input{
+	width: 100%;
+	height: $input-height;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.textarea{
+	width: 100%;
+	height: 180px;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.input-label{
+	height: $input-height;
+	line-height: $input-height;
+	width: 100%;
+}
+
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+
+.input::placeholder, .textarea::placeholder{
+	color: $dark-color;
+	font-size: $font-size-xs;
+}
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */

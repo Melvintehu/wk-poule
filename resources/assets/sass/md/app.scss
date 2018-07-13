@@ -1,0 +1,32 @@
+@import "../libs";
+@import "../reset";
+@import "../variables";
+@import "../partials/spacing";
+@import "./spacing";
+@import "../huisstijl";
+
+// bootstrap grid
+// @import "../grid.scss";
+// @import "./grid.scss";
+
+// partials global
+@import "../partials/text-and-heading-colors";
+@import "../partials/text-transforms-and-font-classes";
+@import "../partials/backgrounds";
+@import "../partials/element-controls";
+@import "../partials/borders";
+@import "../partials/transitions";
+@import "../partials/shapes";
+@import "../partials/shadows";
+@import "../partials/client";
+@import "../partials/floats";
+@import "../partials/bootstrap-responsive-utillities";
+
+// partials lg
+@import "./partials/text-transform-and-fonts";
+@import "./partials/element-controls";
+@import "./partials/floats";
+@import "./partials/phones";
+
+// custom css
+@import "./custom";

@@ -1,0 +1,11 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .md-text-left { text-align: left; }
+    .md-text-right { text-align: right; }
+    .md-text-center { text-align: center; }
+
+    .font-xs{ font-size: $sm-font-size-xs; }
+    .font-sm{ font-size: $sm-font-size-sm; }
+    .font-md{ font-size: $sm-font-size-md; }
+    .font-lg{ font-size: $sm-font-size-lg; }
+}
+  

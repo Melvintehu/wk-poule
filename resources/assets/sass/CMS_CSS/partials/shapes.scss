@@ -1,0 +1,81 @@
+
+
+
+/* --------------------------------------------- SHAPES -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+
+.circle{ border-radius:2000px; text-align: center; }
+
+
+.circle-xs{ width: $circle-dist-xs; height: $circle-dist-xs; }
+.circle-sm{ width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm; }
+.circle-md{ width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md; }
+.circle-lg{ width: $circle-dist-lg; height: $circle-dist-lg; }
+.circle-xl{ width: $circle-dist-xl; height: $circle-dist-xl; }
+
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */ 
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) { 
+	.lg-circle-xl { width: $circle-dist-xl; height: $circle-dist-xl; line-height: $circle-dist-xl ; }
+	.lg-circle-lg { width: $circle-dist-lg; height: $circle-dist-lg; line-height: $circle-dist-lg ; }
+	.lg-circle-md { width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md ; }
+	.lg-circle-sm { width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm ; }
+	.lg-circle-xs { width: $circle-dist-xs; height: $circle-dist-xs; line-height: $circle-dist-xs ; }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.md-circle-xl { width: $circle-dist-xl; height: $circle-dist-xl; line-height: $circle-dist-xl ; }
+	.md-circle-lg { width: $circle-dist-lg; height: $circle-dist-lg; line-height: $circle-dist-lg ; }
+	.md-circle-md { width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md ; }
+	.md-circle-sm { width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm ; }
+	.md-circle-xs { width: $circle-dist-xs; height: $circle-dist-xs; line-height: $circle-dist-xs ; }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.sm-circle-xl { width: $circle-dist-xl; height: $circle-dist-xl; line-height: $circle-dist-xl ; }
+	.sm-circle-lg { width: $circle-dist-lg; height: $circle-dist-lg; line-height: $circle-dist-lg ; }
+	.sm-circle-md { width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md ; }
+	.sm-circle-sm { width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm ; }
+	.sm-circle-xs { width: $circle-dist-xs; height: $circle-dist-xs; line-height: $circle-dist-xs ; }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) { 
+	.xs-circle-xl { width: $circle-dist-xl; height: $circle-dist-xl; line-height: $circle-dist-xl ; }
+	.xs-circle-lg { width: $circle-dist-lg; height: $circle-dist-lg; line-height: $circle-dist-lg ; }
+	.xs-circle-md { width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md ; }
+	.xs-circle-sm { width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm ; }
+	.xs-circle-xs { width: $circle-dist-xs; height: $circle-dist-xs; line-height: $circle-dist-xs ; }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) { 
+	.xs-circle-xl { width: $circle-dist-xl; height: $circle-dist-xl; line-height: $circle-dist-xl ; }
+	.xs-circle-lg { width: $circle-dist-lg; height: $circle-dist-lg; line-height: $circle-dist-lg ; }
+	.xs-circle-md { width: $circle-dist-md; height: $circle-dist-md; line-height: $circle-dist-md ; }
+	.xs-circle-sm { width: $circle-dist-sm; height: $circle-dist-sm; line-height: $circle-dist-sm ; }
+	.xs-circle-xs { width: $circle-dist-xs; height: $circle-dist-xs; line-height: $circle-dist-xs ; }
+}

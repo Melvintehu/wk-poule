@@ -1,0 +1,10 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    
+  .sm-block{ display: block; }
+  .sm-inline-block{ display: inline-block; }
+  .sm-inline{ display: inline; }
+  .sm-full-height { height: 100%; }
+  .sm-full-width { width: 100%; }
+  .visible-sm { display: block; }
+  .visible-inline-block-sm { display: inline-block; }
+}

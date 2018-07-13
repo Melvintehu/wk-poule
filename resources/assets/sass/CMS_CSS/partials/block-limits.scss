@@ -1,0 +1,209 @@
+
+/* --------------------------------------------- BLOCK LIMITS -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+.max-width-xs { max-width: $limit-width-xs; }
+.max-width-sm { max-width: $limit-width-sm; }
+.max-width-md { max-width: $limit-width-md; }
+.max-width-lg { max-width: $limit-width-lg; }
+.max-width-xl { max-width: $limit-width-xl; }
+
+.min-width-xs { min-width: $limit-width-xs; }
+.min-width-sm { min-width: $limit-width-sm; }
+.min-width-md { min-width: $limit-width-md; }
+.min-width-lg { min-width: $limit-width-lg; }
+.min-width-xl { min-width: $limit-width-xl; }
+
+.max-height-xs { max-height: $limit-height-xs; }
+.max-height-sm { max-height: $limit-height-sm; }
+.max-height-md { max-height: $limit-height-md; }
+.max-height-lg { max-height: $limit-height-lg; }
+.max-height-xl { max-height: $limit-height-xl; }
+
+.min-height-xs { min-height: $limit-height-xs; }
+.min-height-sm { min-height: $limit-height-sm; }
+.min-height-md { min-height: $limit-height-md; }
+.min-height-lg { min-height: $limit-height-lg; }
+.min-height-xl { min-height: $limit-height-xl; }
+
+.max-height-none { max-height: none; }
+.min-height-none { max-height: none; }
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */ 
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) { 
+	.lg-max-width-xs { max-width: $limit-width-xs; }
+	.lg-max-width-sm { max-width: $limit-width-sm; }
+	.lg-max-width-md { max-width: $limit-width-md; }
+	.lg-max-width-lg { max-width: $limit-width-lg; }
+	.lg-max-width-xl { max-width: $limit-width-xl; }
+
+	.lg-min-width-xs { min-width: $limit-width-xs; }
+	.lg-min-width-sm { min-width: $limit-width-sm; }
+	.lg-min-width-md { min-width: $limit-width-md; }
+	.lg-min-width-lg { min-width: $limit-width-lg; }
+	.lg-min-width-xl { min-width: $limit-width-xl; }
+
+	.lg-max-height-xs { max-height: $limit-height-xs; }
+	.lg-max-height-sm { max-height: $limit-height-sm; }
+	.lg-max-height-md { max-height: $limit-height-md; }
+	.lg-max-height-lg { max-height: $limit-height-lg; }
+	.lg-max-height-xl { max-height: $limit-height-xl; }
+
+	.lg-min-height-xs { min-height: $limit-height-xs; }
+	.lg-min-height-sm { min-height: $limit-height-sm; }
+	.lg-min-height-md { min-height: $limit-height-md; }
+	.lg-min-height-lg { min-height: $limit-height-lg; }
+	.lg-min-height-xl { min-height: $limit-height-xl; }
+
+	.lg-max-height-none { max-height: none; }
+	.lg-min-height-none { max-height: none; }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.md-max-width-xs { max-width: 200px; }
+	.md-max-width-sm { max-width: 250px; }
+	.md-max-width-md { max-width: 300px; }
+	.md-max-width-lg { max-width: 350px; }
+	.md-max-width-xl { max-width: 400px; }
+
+	.md-min-width-xs { min-width: 200px; }
+	.md-min-width-sm { min-width: 250px; }
+	.md-min-width-md { min-width: 300px; }
+	.md-min-width-lg { min-width: 350px; }
+	.md-min-width-xl { min-width: 400px; }
+
+	.md-max-height-xs { max-height: $limit-height-xs; }
+	.md-max-height-sm { max-height: $limit-height-sm; }
+	.md-max-height-md { max-height: $limit-height-md; }
+	.md-max-height-lg { max-height: $limit-height-lg; }
+	.md-max-height-xl { max-height: $limit-height-xl; }
+
+	.md-min-height-xs { min-height: $limit-height-xs; }
+	.md-min-height-sm { min-height: $limit-height-sm; }
+	.md-min-height-md { min-height: $limit-height-md; }
+	.md-min-height-lg { min-height: $limit-height-lg; }
+	.md-min-height-xl { min-height: $limit-height-xl; }	
+
+	.md-max-height-none { max-height: none; }
+	.md-min-height-none { max-height: none; }
+
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.sm-max-width-xs { max-width: 200px; }
+	.sm-max-width-sm { max-width: 250px; }
+	.sm-max-width-md { max-width: 300px; }
+	.sm-max-width-lg { max-width: 350px; }
+	.sm-max-width-xl { max-width: 400px; }
+
+	.sm-min-width-xs { min-width: 200px; }
+	.sm-min-width-sm { min-width: 250px; }
+	.sm-min-width-md { min-width: 300px; }
+	.sm-min-width-lg { min-width: 350px; }
+	.sm-min-width-xl { min-width: 400px; }
+
+	.sm-max-height-xs { max-height: $limit-height-xs; }
+	.sm-max-height-sm { max-height: $limit-height-sm; }
+	.sm-max-height-md { max-height: $limit-height-md; }
+	.sm-max-height-lg { max-height: $limit-height-lg; }
+	.sm-max-height-xl { max-height: $limit-height-xl; }
+
+	.sm-min-height-xs { min-height: $limit-height-xs; }
+	.sm-min-height-sm { min-height: $limit-height-sm; }
+	.sm-min-height-md { min-height: $limit-height-md; }
+	.sm-min-height-lg { min-height: $limit-height-lg; }
+	.sm-min-height-xl { min-height: $limit-height-xl; }
+
+	.sm-max-height-none { max-height: none; }
+	.sm-min-height-none { max-height: none; }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) { 
+	.xs-max-width-xs { max-width: 200px; }
+	.xs-max-width-sm { max-width: 250px; }
+	.xs-max-width-md { max-width: 300px; }
+	.xs-max-width-lg { max-width: 350px; }
+	.xs-max-width-xl { max-width: 400px; }
+
+	.xs-min-width-xs { min-width: 200px; }
+	.xs-min-width-sm { min-width: 250px; }
+	.xs-min-width-md { min-width: 300px; }
+	.xs-min-width-lg { min-width: 350px; }
+	.xs-min-width-xl { min-width: 400px; }
+
+	.xs-max-height-xs { max-height: $limit-height-xs; }
+	.xs-max-height-sm { max-height: $limit-height-sm; }
+	.xs-max-height-md { max-height: $limit-height-md; }
+	.xs-max-height-lg { max-height: $limit-height-lg; }
+	.xs-max-height-xl { max-height: $limit-height-xl; }
+
+	.xs-min-height-xs { min-height: $limit-height-xs; }
+	.xs-min-height-sm { min-height: $limit-height-sm; }
+	.xs-min-height-md { min-height: $limit-height-md; }
+	.xs-min-height-lg { min-height: $limit-height-lg; }
+	.xs-min-height-xl { min-height: $limit-height-xl; }
+
+	.xs-max-height-none { max-height: none; }
+	.xs-min-height-none { max-height: none; }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) { 
+	.xs-max-width-xs { max-width: 200px; }
+	.xs-max-width-sm { max-width: 250px; }
+	.xs-max-width-md { max-width: 300px; }
+	.xs-max-width-lg { max-width: 350px; }
+	.xs-max-width-xl { max-width: 400px; }
+
+	.xs-min-width-xs { min-width: 200px; }
+	.xs-min-width-sm { min-width: 250px; }
+	.xs-min-width-md { min-width: 300px; }
+	.xs-min-width-lg { min-width: 350px; }
+	.xs-min-width-xl { min-width: 400px; }
+
+	.xs-max-height-xs { max-height: $limit-height-xs; }
+	.xs-max-height-sm { max-height: $limit-height-sm; }
+	.xs-max-height-md { max-height: $limit-height-md; }
+	.xs-max-height-lg { max-height: $limit-height-lg; }
+	.xs-max-height-xl { max-height: $limit-height-xl; }
+
+	.xs-min-height-xs { min-height: $limit-height-xs; }
+	.xs-min-height-sm { min-height: $limit-height-sm; }
+	.xs-min-height-md { min-height: $limit-height-md; }
+	.xs-min-height-lg { min-height: $limit-height-lg; }
+	.xs-min-height-xl { min-height: $limit-height-xl; }
+
+	.xs-max-height-none { max-height: none; }
+	.xs-min-height-none { max-height: none; }
+
+}
+
+

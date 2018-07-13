@@ -1,0 +1,61 @@
+
+
+/* ---------------------------------------------  IMAGES  -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+.image{	display: block; position: relative; overflow: hidden; width: 100%;
+	img{ width: 100%; }
+}
+
+.image-greyscale{ -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+.image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%); }
+
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+img .image-greyscale{ -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%); }
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+
+/* image hovers */
+
+
+.image-hover-greyscale:hover{ -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+.image-hover-greyscale-none:hover{ -webkit-filter: greyscale(0%); filter: grayscale(0%); }
+
+
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */ 
+
+
+	/* Large desktops and laptops */
+	@media (min-width: 1200px) { }
+
+	/* Landscape tablets and medium desktops */
+	@media (min-width: 992px) and (max-width: 1199px) { }
+
+	/* Portrait tablets and small desktops */
+	@media (min-width: 768px) and (max-width: 991px) { }
+
+	/* Landscape phones and portrait tablets */
+	@media (max-width: 767px) { }
+
+	/* Portrait phones and smaller */
+	@media (max-width: 480px) { }
+
+
