@@ -1,0 +1,1 @@
+<h1>Jouw huidige score is: {{ $score->total }} </h1>
