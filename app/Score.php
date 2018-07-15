@@ -140,6 +140,7 @@ class Score extends Model
             }, 0);
             
             $score->score += Score::checkTeamsArrivedInNextRound($score, $user); 
+            $score->score += Score::checkTeamWithMostGoalsAgainst($score, $user);
             // save the recalculated score
             $score->save();
             
@@ -194,9 +195,11 @@ class Score extends Model
             "2018-06-29" => 2,
             "2018-07-04" => 3,
             "2018-07-08" => 4,
-            "2018-07-12" => 5,
-            "2018-07-16" => 6,
-            "2018-07-16" => 7
+            "2018-07-14" => 5,
+            "2018-07-14" => 6,
+            "2018-07-15" => 7,
+            "2018-07-15" => 8,
+
         ]);
         
 
@@ -234,7 +237,17 @@ class Score extends Model
     public function checkTeamWithMostScoredGoals() {}
     
     // Meestel goals tegen: 20 punten
-    public function checkTeamWithMostGoalsAgainst(){}
+    public static function checkTeamWithMostGoalsAgainst($score, $user)
+    {
+        $otherPrediction = OtherPrediction::where('user_id', $user->id)->first();
+        if($otherPrediction->most_goals_against_team == 26) 
+        {
+            $score->correct_team_with_most_goals_against = 1;
+            return 20;
+        }
+
+        return 0;
+    }
                 
                 
 }
