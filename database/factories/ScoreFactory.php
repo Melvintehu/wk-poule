@@ -5,6 +5,6 @@ use App\Score;
 
 $factory->define(Score::class, function (Faker $faker) {
     return [
-        // 'total' => $faker->numberBetween(10, 200),
+        'total' => $faker->numberBetween(10, 200),
     ];
 });

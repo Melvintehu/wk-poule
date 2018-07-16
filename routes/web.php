@@ -1,8 +1,10 @@
 <?php
 
 // Match
-Route::get('/match/{match}', 'MatchController@show');
-Route::get('/match', 'MatchController@index');
+Route::get('/match/{match}', 'MatchController@show')->name('match.show');
+Route::get('/match', 'MatchController@index')->name('match.index');
+Route::get('/matches/played', 'MatchPlayedController@index')->name('match.played.index');
+
 
 // Team
 Route::get('/team/{team}', 'TeamController@show');

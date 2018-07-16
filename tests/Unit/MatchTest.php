@@ -10,6 +10,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use App\Match;
 use App\Team;
 use App\Statistic;
+use Carbon\Carbon;
 
 class MatchTest extends TestCase
 {
@@ -64,12 +65,7 @@ class MatchTest extends TestCase
         $this->assertInstanceOf(Statistic::class, $statistic);
     }
 
-    // /** @test */
-    // public function it_has_a_winning_team_if_a_match_has_been_played()
-    // {
-    //     $winningTeam = $match->winningTeam();
 
-    //     $this->
-    // }    
+  
 
 }

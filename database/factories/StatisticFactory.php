@@ -2,6 +2,7 @@
 
 use Faker\Generator as Faker;
 use App\Statistic;
+use App\Match;
 
 $factory->define(Statistic::class, function (Faker $faker) {
     return [
