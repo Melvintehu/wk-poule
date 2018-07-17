@@ -66,6 +66,11 @@ class MatchTest extends TestCase
     }
 
 
+    /** @test */
+    public function a_match_may_be_published_after_a_set_time()
+    {
+        $this->assertNotNull(Match::PUBLISH_MATCH_AFTER_TIME);
+    }
   
 
 }

@@ -9,6 +9,8 @@ class Match extends Model
 {
     protected $guarded = [];
 
+    const PUBLISH_MATCH_AFTER_TIME = 70;
+
     public function home_team()
     {
         return $this->belongsTo(Team::class, 'home_team_id');
@@ -25,6 +27,7 @@ class Match extends Model
     {
         return $this->hasOne(Statistic::class);
     }
+    
 
 
 }

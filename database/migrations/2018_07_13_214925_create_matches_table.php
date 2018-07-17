@@ -21,8 +21,6 @@ class CreateMatchesTable extends Migration
             $table->time('end_time');
             $table->unsignedInteger('home_team_id');
             $table->unsignedInteger('away_team_id');
-            $table->integer('goals_home');
-            $table->integer('goals_away');
 
             $table->timestamps();
         });

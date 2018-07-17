@@ -26,56 +26,65 @@ class ViewMatchesTest extends TestCase
         $response->assertSee($match->away_team->name);
     }
 
-    /** @test */
-    public function a_user_can_view_a_single_match()
-    {
-        // arrange
-        $match = factory(Match::class)->create([
-            'home_team_id' => factory(Team::class)->create()->id,
-            'away_team_id' => factory(Team::class)->create()->id
-        ]);
+    // /** @test */
+    // public function a_user_can_view_a_single_match()
+    // {
+    //     // arrange
+    //     $match = factory(Match::class)->create([
+    //         'home_team_id' => factory(Team::class)->create()->id,
+    //         'away_team_id' => factory(Team::class)->create()->id
+    //     ]);
 
-        // act
-        $response = $this->get(route('match.show', ['match' => 1]));
+    //     // act
+    //     $response = $this->get(route('match.show', ['match' => 1]));
 
-        // assert
-        $this->assertSeeMatchAttributes($response, $match);
-    }
+    //     // assert
+    //     $this->assertSeeMatchAttributes($response, $match);
+    // }
 
 
-    /** @test */
-    public function a_user_can_view_multiple_matches()
-    {
-        // arrange
-        $match = factory(Match::class, 5)->create([
-            'home_team_id' => factory(Team::class)->create()->id,
-            'away_team_id' => factory(Team::class)->create()->id
-        ]);
+    // /** @test */
+    // public function a_user_can_view_multiple_matches()
+    // {
+    //     // arrange
+    //     $match = factory(Match::class, 5)->create([
+    //         'home_team_id' => factory(Team::class)->create()->id,
+    //         'away_team_id' => factory(Team::class)->create()->id
+    //     ]);
 
-        // act
-        $response = $this->get(route('match.index'));
+    //     // act
+    //     $response = $this->get(route('match.index'));
 
-        // assert
-        $this->assertSeeMatchAttributes($response, Match::all()->random(3)->first());
-    }
+    //     // assert
+    //     $this->assertSeeMatchAttributes($response, Match::all()->random(3)->first());
+    // }
 
     /** @test */
     public function a_user_can_view_played_matches()
     {
         // arrange
-        $match_start_time = Carbon::now()->subMinutes(MatchesPlayed::PUBLISH_MATCH_AFTER_TIME)->format('H:i:s');
+        $match_start_time = Carbon::now()->subMinutes(Match::PUBLISH_MATCH_AFTER_TIME)->format('H:i:s');
 
         factory(Statistic::class)->create([
             'match_id' => factory(Match::class)->create([
-                'play_date' => '2018-07-16',
+                'play_date' => Carbon::now()->format('Y-m-d'),
                 'end_time' => $match_start_time
             ])->id
         ]);
 
+        $match = MatchesPlayed::get()->first();
+        
         // act
         $response = $this->get(route('match.played.index'));
         
-        $this->assertTrue(true);
+        $response->assertSee('Thuis ' . $match->statistic->goals_home);
+        // $response->assertSee($match->statistic->goals_away);
+        // $response->assertSee($match->statistic->yellow_cards_home);
+        // $response->assertSee($match->statistic->yellow_cards_away);
+        // $response->assertSee($match->statistic->red_cards_home);
+        // $response->assertSee($match->statistic->red_cards_away);
+        // $this->assertSeeMatchAttributes($response, $match);
+        
     }
 
     
