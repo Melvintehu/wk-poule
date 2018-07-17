@@ -27,5 +27,7 @@ class Match extends Model
     {
         return $this->hasOne(Statistic::class);
     }
+    
+
 
 }
