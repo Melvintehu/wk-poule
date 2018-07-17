@@ -77,13 +77,13 @@ class ViewMatchesTest extends TestCase
         // act
         $response = $this->get(route('match.played.index'));
         
-        $response->assertSee('Thuis ' . $match->statistic->goals_home);
-        // $response->assertSee($match->statistic->goals_away);
-        // $response->assertSee($match->statistic->yellow_cards_home);
-        // $response->assertSee($match->statistic->yellow_cards_away);
-        // $response->assertSee($match->statistic->red_cards_home);
-        // $response->assertSee($match->statistic->red_cards_away);
-        // $this->assertSeeMatchAttributes($response, $match);
+        $response->assertSee($match->statistic->present()->goalsHome);
+        $response->assertSee($match->statistic->present()->goals_away);
+        $response->assertSee($match->statistic->present()->yellow_cards_home);
+        $response->assertSee($match->statistic->present()->yellow_cards_away);
+        $response->assertSee($match->statistic->present()->red_cards_home);
+        $response->assertSee($match->statistic->present()->red_cards_away);
+        $this->assertSeeMatchAttributes($response, $match);
         
     }
 
